@@ -16,7 +16,8 @@ li {
   margin: 80px auto;
   font-family: "Karla", sans-serif;
   font-size: 16px;
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .header {
   padding: 20px 20px;
@@ -42,6 +43,8 @@ li {
   height: 300px;
   padding: 30px 40px;
   margin-bottom: 40px;
+  border-bottom-left-radius: 5px;
+  
 }
 
 #sec1 h3 {
@@ -60,6 +63,7 @@ li {
   height: 300px;
   padding: 30px 40px;
   margin-bottom: 40px;
+  border-bottom-right-radius: 5px;
 }
 #sec2 ul li {
   list-style-type: none;
