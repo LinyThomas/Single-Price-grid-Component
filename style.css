@@ -19,15 +19,15 @@ li {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.header {
+header {
   padding: 20px 20px;
   height: 240px;
 }
-.header h2 {
+header h2 {
   color: hsl(179, 62%, 43%);
   font-weight: 700;
 }
-.header h3 {
+.yellow {
   color: hsl(71, 73%, 54%);
   font-weight: 400;
 }
@@ -47,7 +47,7 @@ li {
   
 }
 
-#sec1 h3 {
+#sec1 p {
   font-weight: normal;
   color: rgb(87, 223, 220);
 }
@@ -89,9 +89,10 @@ li {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-@media screen and (max-width: 700px) and (min-width: 300px) {
+@media screen and (max-width: 720px) and (min-width: 300px) {
   .container {
-    width: 280px;
+    width: 100%;
+    max-width: 720px;
     height: auto;
     padding: 20px 20px;
     font-size: 12px;
